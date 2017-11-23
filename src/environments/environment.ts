@@ -12,5 +12,8 @@ export const environment = {
     projectId: "af2-v5-start-dev",
     storageBucket: "af2-v5-start-dev.appspot.com",
     messagingSenderId: "427399576279"
+  },
+  dialogflow: {
+    angularBot: '3054fd4e77ce4e06a880d33f08e2d669'
   }
 };

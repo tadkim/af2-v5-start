@@ -11,6 +11,8 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore'
 
 import { AppComponent } from './app.component';
+import { ChatModule } from 'app/chat/chat.module';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
+    ChatModule,
     HttpModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFirestoreModule,
